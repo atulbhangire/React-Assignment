@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #e0e7f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  margin-bottom: 1em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+  margin: 0 15px;
+}
+
+.home-page-btn {
+  background-color: whitesmoke;
+  border-radius: 4px;
+  height: 45px;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.employee-info{
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 110px;
+}
+
+.ReactTable .rt-tbody .rt-td a:hover{
+    color: #8B4513 !important;
+}
+
+.header-p{
+  position: absolute;
+  left: 45%;
+  bottom: 0%;
+  top: 13px;
+}
+
+.home-page-header{
+  background-color: #e0e7f5;
+  position: relative;
+  height: 50px;
+}
+
+.home-page-btn{
+  background-color: whitesmoke;
+  border-radius: 4px;
+  height: 45px;
+}
+
+.home-back-symbol{
+  position: relative;
+  font-size: 80px;
+  bottom: 50px;
+}
+
+.home-back-btn{
+  height: 50px;
+}
+
+.employee-resume-link{
+  position: relative;
+  float: right;
+}
+
+.employee-header{
+  position: relative;
+}
+
+.employee-details-css{
+  position: relative;
+  left: 18%
+}
+
+.ReactTable .rt-tbody .rt-td a {
+  text-decoration: none;
+  border-right: 0;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+.loading-page {
+  position: relative;
+  text-align: center;
+  left: 80px;
+  color: blue;
+}
+
+.header-menu-word{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.employee-page-css{
+  position: relative;
+  left: 25%;
+}
+
+.container-fluid {
+   padding-right: 0 !important; 
+   padding-left: 0 !important;
+}
+
+.rt-th input {
+  width: 25% !important;
+  float: left;
+  border: 3px solid #ccc !important;
+}
+
+.rt-th input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.rt-th input[type=text]:focus {
+  border: 3px solid #555 !important;
+}
+
+.ReactTable .rt-tbody .rt-td a {
+  text-decoration: none;
+  border-right: 0;
+  color: black !important;
+  font-size: 16px !important;
+}
+
+.ReactTable .rt-tbody .rt-td a:hover{
+    color: #8B4513 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: black !important;
+    border-bottom: 1px solid blue !important;
+}
+
+.background-info{
+  background: aquamarine;
+}
+
+.background-project{
+  background: skyblue;
+}
+
+.background-notes{
+  background: slategray;
+}
+
+.background-hobbies{
+  background: burlywood;
+}
+
+.employee-list-table{
+  position: relative;
+  padding: 0px;
+  bottom: 25px;
+}
+
+footer{
+  background-color: rgb(39,39,39);
+  color: rgb(137,137,137);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 48px;
+}
+
+.link-css{
+color: black;
+text-decoration: none;
+}
+
+.page-not-found{
+position: relative;
+left: 35%;
+font-size: 25px;
+}
+
+.footer-css {
+color: white;
+}
